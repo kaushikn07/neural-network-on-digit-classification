@@ -60,7 +60,7 @@ Math:
 
   . Now moving to margining errors we use a one_hot fix for this.
   
-  . One hot basically rather than using numeric values larger than 1 creates and null matrix but with lets for a number n the one hot matrix would have the whole nth rows 1 rest as zero.
+  . The hot fix basically rather than using numeric values larger than 1 creates and null matrix but with lets for a number n the the hot fix matrix would have the whole nth rows 1 rest as zero.
   
   . So this matrix is removed from resultant matrix .
   
@@ -68,7 +68,7 @@ Math:
   
   . We do all of this using basics of calculus.
   
-  . For Z when subtract one hot fix matrix from resultant.
+  . For Z when subtract the hot fix matrix from resultant.
   
   . For W(weights) we take the derivative of Z dot it with thte transpose of the resultant and divide it over number of rows.
   
